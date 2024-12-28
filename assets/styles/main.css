@@ -1,0 +1,41 @@
+body {
+    color: black;
+    background-color: white;
+
+    width: 40rem;
+    min-height: 100vh;
+    margin: 0 auto;
+
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: mediumvioletred;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+a:any-link {
+    color: mediumvioletred;
+    text-decoration-style: dotted;
+}
+
+a:hover {
+    color: teal;
+    background-color: color-mix(in srgb, cyan, white 95%);
+    text-decoration: teal overline underline;
+}
+
+table {
+    border-collapse: collapse;
+    border-top:      thick solid;
+    border-bottom:   thick solid;
+
+    & thead {
+        border-bottom: medium solid;
+    }
+}
