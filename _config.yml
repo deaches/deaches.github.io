@@ -4,3 +4,5 @@ autoreload: true
 
 exclude:
   - "vendor/"
+
+permalink: "/blog/:categories/:title:output_ext"
