@@ -50,7 +50,7 @@ table {
  * class is used on both block and inline elements.
  */
 div.highlighter-rouge {
-    overflow-x: scroll;
+    overflow-x: auto;
 }
 
 article header {
