@@ -53,3 +53,12 @@ div.highlighter-rouge {
     overflow-x: scroll;
 }
 
+article header {
+    & h1 {
+        margin-bottom: 0;
+    }
+
+    & time {
+        color: grey;
+    }
+}
